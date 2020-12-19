@@ -18,7 +18,7 @@ def fahrenheit():
                                                    temp_fahrenheit))
             break
         except Exception:
-            print("{0} is not an integer. Please enter an integer."
+            print("{0} is not a temperature. Please enter a temperature."
                   .format(temp_celsius))
             print("\n", end="")
 
